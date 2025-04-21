@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;spring-boot-non-jwt&apos;" deleteContents="false" description="Delete resource &apos;spring-boot-non-jwt&apos;" element1="/spring-boot-non-jwt" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1742861248431"/>&#x0A;<refactoring comment="Delete resource &apos;spring-boot-noon-jwt&apos;" deleteContents="false" description="Delete resource &apos;spring-boot-noon-jwt&apos;" element1="/spring-boot-noon-jwt" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1742867340139"/>
+</session>

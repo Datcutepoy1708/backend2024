@@ -1,0 +1,30 @@
+package javatrenlop;
+import java.util.ArrayList;
+import java.util.Scanner;
+public class cau3Main {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.println("Nhap so luong giang vien: ");
+	int n=sc.nextInt();
+	sc.nextLine();
+	ArrayList<GiangVien> dsgv=new ArrayList<>();
+	for(int i=0;i<n;i++) {
+		System.out.println("Nhap thong tin giang vien: ");
+		GiangVien gv=new GiangVien();
+		gv.input();
+		dsgv.add(gv);
+	}
+	System.out.println("--------THONG TIN BANG LUONG GIANG VIEN---------");
+	for(GiangVien gv : dsgv) {
+		System.out.println("Ho ten: "+gv.getHoTen());
+		System.out.println("Gioi Tinh: "+gv.getGioiTinh());
+		System.out.println("Ngay Sinh: "+gv.getNgaySinh());
+		System.out.println("Dia Chi: "+gv.getDiaChi());
+		System.out.println("Lop Day: "+gv.getLopDay());
+		System.out.println("Buoi Day: "+gv.getBuoiDay());
+		System.out.println("Luong 1h: "+gv.getLuong1h());
+		System.out.println("Luong Thuc Nhan: "+gv.luongThucNhan());
+		System.out.println();
+	}
+}
+}

@@ -1,0 +1,16 @@
+package javatrenlop;
+import java.util.Scanner;
+
+public class cau1kiemtra {
+public static int uc(int a, int b) {
+	if(a==0) return b;
+	else
+		return uc(a,b %a);
+}
+public static void main(String[] args) {
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+int b=sc.nextInt();
+System.out.println(uc(a,b));
+}
+}
