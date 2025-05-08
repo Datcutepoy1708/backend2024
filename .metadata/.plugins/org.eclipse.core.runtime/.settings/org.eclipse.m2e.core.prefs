@@ -1,6 +1,0 @@
-eclipse.m2.defaultRuntime=EMBEDDED
-eclipse.m2.runtimes=Netbeans Maven
-eclipse.m2.runtimesNodes/Netbeans\ Maven/location=D\:\\netbean\\NetBeans-25\\netbeans\\java\\maven
-eclipse.m2.runtimesNodes/Netbeans\ Maven/type=EXTERNAL
-eclipse.m2.userSettingsFile=D\:\\apache-maven-3.9.9-bin\\conf\\settings.xml
-eclipse.preferences.version=1
